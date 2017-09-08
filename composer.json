@@ -5,7 +5,7 @@
         "mailgun",
         "laravel",
         "mail",
-        "email",
+        "email"
     ],
     "homepage": "https://github.com/markokeeffe/Mailgun",
     "license": "MIT",
