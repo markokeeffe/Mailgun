@@ -19,7 +19,7 @@
         "php": ">=5.5.9",
         "illuminate/support": "~5.1",
         "mailgun/mailgun-php": "^2.1",
-        "nesbot/carbon": "^1.21",
+        "nesbot/carbon": "^1.26.3 || ^2.0",
         "php-http/message": "^1.3"
     },
     "require-dev": {
@@ -47,5 +47,15 @@
         "barryvdh/laravel-ide-helper": "Add accurate autocompletion for Laravel Facades, including the Mailgun facade",
         "php-http/guzzle6-adapter": "Use Guzzle 6 as your Mailgun HTTP client",
         "php-http/guzzle5-adapter": "Use Guzzle 5 as your Mailgun HTTP client"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bogardo\\Mailgun\\MailgunServiceProvider"
+            ],
+            "aliases": {
+                "Mailgun": "Bogardo\\Mailgun\\Facades\\Mailgun"
+            }
+        }
     }
 }
