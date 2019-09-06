@@ -1,18 +1,20 @@
 {
-    "name": "markokeeffe/mailgun",
+    "name": "bogardo/mailgun",
     "description": "Laravel package for sending mail via the Mailgun API",
     "keywords": [
         "mailgun",
         "laravel",
         "mail",
-        "email"
+        "email",
+        "bogardo"
     ],
-    "homepage": "https://github.com/markokeeffe/Mailgun",
+    "homepage": "https://github.com/Bogardo/Mailgun",
     "license": "MIT",
     "authors": [
         {
-            "name": "Mark O'Keeffe",
-            "email": "senshi001@gmail.com"
+            "name": "Chris Bogaards",
+            "email": "chris@bogardo.com",
+            "homepage": "http://bogardo.com/"
         }
     ],
     "require": {
